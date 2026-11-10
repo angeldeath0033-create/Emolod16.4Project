@@ -12,9 +12,25 @@ namespace Project
 {
     public partial class Form1 : Form
     {
+        Page1 page1 = new Page1(); 
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void PanelContent_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
